@@ -160,7 +160,7 @@ hr{
         align-items: center;
     }
     .hight-adjustment{
-        height: 60em;
+        height: 70em;
     }
     .courses{
         row-gap: 2em;
@@ -171,7 +171,23 @@ hr{
         display: flex;
         align-items: center;
         flex-direction: column;
+        background-size: 100%;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(31, 151, 255));
+        margin-left: 11px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: #322a2a 6px 6px;
     }
+    .courses .single-course .course-banner img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 2.1em;
+
+    }
+    .courses .single-course .course-detail .course-instrutor{
+        color: whitesmoke;
 }
 
 
@@ -179,7 +195,8 @@ hr{
 
 @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
-        width:100%
+        width:100%;
+        padding: 0%;
     }
     .players{
         grid-template-columns: repeat(2, 1fr);
