@@ -159,6 +159,9 @@ hr{
         justify-content: center;
         align-items: center;
     }
+    .hight-adjustment{
+        height: 60em;
+    }
     .courses{
         row-gap: 2em;
     }
